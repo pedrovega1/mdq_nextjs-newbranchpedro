@@ -10,7 +10,7 @@ import {
 import Image from "next/image";
 
 import Link from "next/link";
-import NextVideo from "next-video";
+
 import Video from "next-video";
 import { Asset } from "next-video/dist/assets.js";
 
