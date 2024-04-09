@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { HeroParallax } from "@/components/ui/hero-parallax";
-import vid from "/videos/vid.mp4";
+
 import vid1 from "/videos/vid1.mp4";
 import vid2 from "/videos/vid2.mp4";
 import vid3 from "/videos/vid3.mp4";

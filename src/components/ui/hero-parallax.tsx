@@ -7,7 +7,6 @@ import {
   useSpring,
   MotionValue,
 } from "framer-motion";
-import Image from "next/image";
 
 import Link from "next/link";
 
@@ -74,13 +73,7 @@ export const HeroParallax = ({
         className=""
       >
         <motion.div className="flex flex-row-reverse space-x-reverse space-x-20 mb-20">
-          {firstRow.map((product) => (
-            <ProductCard
-              product={product}
-              translate={translateX}
-              key={product.title}
-            />
-          ))}
+          z
         </motion.div>
         <motion.div className="flex flex-row  mb-20 space-x-20 ">
           {secondRow.map((product) => (
