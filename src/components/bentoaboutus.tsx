@@ -57,7 +57,7 @@ const items = [
   },
   {
     title: "Рандомный чел",
-    description: "Относит бумажки",
+    description: "pedrovega",
     header: <Image 
     src="/lol.gif"
     alt="moving images"

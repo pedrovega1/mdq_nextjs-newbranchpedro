@@ -43,7 +43,7 @@ export default function Navbar() {
       className={`bg-current shadow-sm ${
         isScrolled
           ? "fixed top-0 left-0 right-0 z-50 bg-opacity-100 "
-          : "bg-black/20 "
+          : "p-2 "
       } transition-all duration-300 ease-in-out`}
     >
       {({ open }) => (
@@ -83,8 +83,8 @@ export default function Navbar() {
                       href={item.href}
                       className={classNames(
                         pathname === item.href
-                          ? "border-slate-500 text-slate-800"
-                          : "border-transparent text-slate-400 hover:text-gray-700 hover:border-gray-300",
+                          ? "border-slate-500 text-blue-600 "
+                          : "border-transparent text-slate-400 hover:text-gray-700 hover:border-gray-300 ",
                         "inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
                       )}
                       aria-current={pathname === item.href ? "page" : undefined}
